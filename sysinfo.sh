@@ -36,7 +36,8 @@ header() {
         	    =======================
 
 EOF
-
+  echo -e "                    ${CYAN}https://github.com/0x3xp${RESET}"
+  echo
   echo -e "${CYAN}${BOLD}╔══════════════════════════════════════════════════════════════╗"
   echo -e "║                   ${WHITE}System Info - Debian Dashboard${CYAN}             ║"
   echo -e "╚══════════════════════════════════════════════════════════════╝${RESET}\n"
@@ -134,7 +135,7 @@ footer() {
   line
   echo -e "${BOLD}${BLUE}Code Developed by Piyusha Akash © 2025${RESET}"
   echo -e "${BOLD}${BLUE}UI Developed by using ChatGPT${RESET}"
-
+  echo -e "${CYAN}https://github.com/0x3xp${RESET}"
 }
 
 # -------------[ Main Execution ]-------------
